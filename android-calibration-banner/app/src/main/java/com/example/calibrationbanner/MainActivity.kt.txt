@@ -1,0 +1,12 @@
+package com.example.calibrationbanner
+
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        // Пока просто отображаем пустой экран или свой CalibrationBannerView
+        setContentView(R.layout.activity_main)
+    }
+}
