@@ -19,6 +19,9 @@ jobs:
           distribution: 'temurin'
           java-version: '11'
 
+      - name: Make gradlew executable
+        run: chmod +x gradlew
+
       # Если у вас есть отдельная задача сборки Kotlin Metadata Package,
       # можно вызвать её как gradle-задачу:
       - name: Build Kotlin Metadata Package
