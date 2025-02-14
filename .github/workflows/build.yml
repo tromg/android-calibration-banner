@@ -19,7 +19,7 @@ jobs:
           java-version: '11'
 
       - name: Build Kotlin Metadata Package
-        uses: your-org/your-action@vX
+        uses: actions/upload-artifact@v4
         with:
           distribution: 'release'  # или другое нужное значение
 
