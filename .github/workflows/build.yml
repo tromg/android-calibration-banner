@@ -18,6 +18,11 @@ jobs:
         with:
           java-version: '11'
 
+      - name: Build Kotlin Metadata Package
+        uses: your-org/your-action@vX
+        with:
+          distribution: 'release'  # или другое нужное значение
+
       - name: Build with Gradle
         run: ./gradlew assembleDebug
 
